@@ -6,6 +6,7 @@ interface AccountMenuProps {
 }
 
 const AccountMenu: React.FC<AccountMenuProps>= ({visible}) => {
+    
     if (!visible) {
         return null
     }
